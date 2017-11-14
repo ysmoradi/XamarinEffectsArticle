@@ -2,4 +2,13 @@
 <Application
     x:Class="XamarinEffectsArticle.App"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" />
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effects="clr-namespace:XamarinEffectsArticle.Effects">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="effects:EntryClearButtonEffect.ShowClearButton" Value="True" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

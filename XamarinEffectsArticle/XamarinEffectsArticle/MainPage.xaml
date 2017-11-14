@@ -6,10 +6,6 @@
     xmlns:effects="clr-namespace:XamarinEffectsArticle.Effects"
     xmlns:local="clr-namespace:XamarinEffectsArticle">
     <ContentPage.Content>
-        <Entry Text="Type here...">
-            <Entry.Effects>
-                <effects:EntryClearButtonEffect />
-            </Entry.Effects>
-        </Entry>
+        <Entry Text="Type here..." />
     </ContentPage.Content>
 </ContentPage>
