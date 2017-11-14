@@ -5,7 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:effects="clr-namespace:XamarinEffectsArticle.Effects"
     xmlns:local="clr-namespace:XamarinEffectsArticle">
-    <ContentPage.Content>
-        <Entry Text="Type here..." />
-    </ContentPage.Content>
+    <StackLayout>
+        <Entry Text="I've an effect..." />
+        <Entry Text="I've an effect..." />
+        <Entry effects:EntryClearButtonEffect.ShowClearButton="False" Text="I don't have an effect..." />
+    </StackLayout>
 </ContentPage>
