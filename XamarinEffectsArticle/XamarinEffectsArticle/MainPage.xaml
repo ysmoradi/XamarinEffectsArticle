@@ -3,8 +3,13 @@
     x:Class="XamarinEffectsArticle.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effects="clr-namespace:XamarinEffectsArticle.Effects"
     xmlns:local="clr-namespace:XamarinEffectsArticle">
     <ContentPage.Content>
-        <Entry Text="Type here..." />
+        <Entry Text="Type here...">
+            <Entry.Effects>
+                <effects:EntryClearButtonEffect />
+            </Entry.Effects>
+        </Entry>
     </ContentPage.Content>
 </ContentPage>
